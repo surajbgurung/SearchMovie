@@ -25,6 +25,7 @@ html {
  }
  .form {
    display: grid;
+   margin-bottom: 1rem;
  }
  .label {
    font-size: 1.2rem;
@@ -57,6 +58,14 @@ html {
    border-radius: 10px;
    box-shadow: 1px 1px 5px rgba(0,0,0,0.25);
 
+ }
+ .card--title {
+   margin-bottom: 0.5rem;
+   font-size: 3.2rem;
+ }
+ .card--image {
+   margin: 0 auto;
+   display: block;
  }
  @media (min-width: 786px){
    .form{
